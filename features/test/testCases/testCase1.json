@@ -1,0 +1,10 @@
+{
+    "tag": "testCase1",
+    "content": [
+        {
+            "id": 1,
+            "type": "When",
+            "link": ""
+        }
+    ]
+}

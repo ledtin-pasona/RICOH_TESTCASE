@@ -1,0 +1,20 @@
+{
+    "testCaseTags": [],
+    "testCases": [
+        {
+            "id": "testcase1",
+            "type": "file",
+            "fileName": "TestCase1.js"
+        },
+        {
+            "id": "testcase2",
+            "type": "file",
+            "fileName": "TestCase2.js"
+        },
+        {
+            "id": "testcase3",
+            "type": "file",
+            "fileName": "TestCase3.js"
+        }
+    ]
+}

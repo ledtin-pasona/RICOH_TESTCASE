@@ -1,0 +1,18 @@
+{
+    "browser": "ie",
+    "features": [
+        "@Test"
+    ],
+    "choices": [
+        "./features/features/login.feature",
+        "./features/features/gotoNim008Apl001Tab2.feature",
+        "./features/features/nim008_apl001_tab2_btn_salecom.feature"
+    ],
+    "database": {
+        "user": "imart_rfg",
+        "password": "imart_rfg",
+        "host": "132.145.123.77",
+        "port": 1521,
+        "serviceName": "pdborcl.rsubnet.rvcn.oraclevcn.com"
+    }
+}

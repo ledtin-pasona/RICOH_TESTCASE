@@ -1,0 +1,394 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test examples",
+    "line": 2,
+    "id": "test-examples",
+    "tags": [
+      {
+        "name": "@Test",
+        "line": 1
+      }
+    ],
+    "uri": "features\\features\\test.feature",
+    "elements": [
+      {
+        "id": "test-examples;",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "set scenario: { tag: \"Login\", testcase: \"LoginWithDev08\" }",
+            "match": {
+              "location": "features\\stepDefinitions\\setScenario.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "browse to web site \"http://132.145.113.198/imsl/login?\"",
+            "match": {
+              "location": "features\\stepDefinitions\\browserToWebSite.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "clear textbox \"txtUsername\"",
+            "match": {
+              "location": "features\\stepDefinitions\\clearTextbox.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 500000000,
+              "error_message": "UnsupportedOperationError: Error 404: Not Found\nNot Found\n    at parseHttpResponse (D:\\research\\cucumberjs\\cucumberScenarioOutline\\node_modules\\selenium-webdriver\\lib\\http.js:534:11)\n    at doSend.then.response (D:\\research\\cucumberjs\\cucumberScenarioOutline\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.clear()\n    at thenableWebDriverProxy.schedule (D:\\research\\cucumberjs\\cucumberScenarioOutline\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElementPromise.schedule_ (D:\\research\\cucumberjs\\cucumberScenarioOutline\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElementPromise.clear (D:\\research\\cucumberjs\\cucumberScenarioOutline\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2351:17)\n    at World.<anonymous> (D:\\research\\cucumberjs\\cucumberScenarioOutline\\features\\stepDefinitions\\clearTextbox.js:6:39)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "input textbox \"txtUsername\" value \"\"",
+            "match": {
+              "location": "features\\stepDefinitions\\inputTextbox.js:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "clear textbox \"txtPassword\"",
+            "match": {
+              "location": "features\\stepDefinitions\\clearTextbox.js:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "input textbox \"txtPassword\" value \"\"",
+            "match": {
+              "location": "features\\stepDefinitions\\inputTextbox.js:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "click \"button\" \"btnLogin\"",
+            "match": {
+              "location": "features\\stepDefinitions\\clickElement.js:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-examples;",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "set scenario: { tag: \"Login\", testcase: \"LoginWithDev08\" }",
+            "match": {
+              "location": "features\\stepDefinitions\\setScenario.js:5"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "browse to web site \"http://132.145.113.198/imsl/login?\"",
+            "match": {
+              "location": "features\\stepDefinitions\\browserToWebSite.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "clear textbox \"txtUsername\"",
+            "match": {
+              "location": "features\\stepDefinitions\\clearTextbox.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "input textbox \"txtUsername\" value \"dev08\"",
+            "match": {
+              "location": "features\\stepDefinitions\\inputTextbox.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "clear textbox \"txtPassword\"",
+            "match": {
+              "location": "features\\stepDefinitions\\clearTextbox.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "input textbox \"txtPassword\" value \"tindev\"",
+            "match": {
+              "location": "features\\stepDefinitions\\inputTextbox.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "click \"button\" \"btnLogin\"",
+            "match": {
+              "location": "features\\stepDefinitions\\clickElement.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3503000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-examples;",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:44"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "browse to web site \"http://132.145.113.198/imsl/forma/normal/view/regist_application_view/sf_nim008_apl001?\"",
+            "match": {
+              "location": "features\\stepDefinitions\\browserToWebSite.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "delay \"3\"s to find element \"btnTab2\"",
+            "match": {
+              "location": "features\\stepDefinitions\\delay.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "click \"button\" \"btnTab2\"",
+            "match": {
+              "location": "features\\stepDefinitions\\clickElement.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-examples;",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "click \"button\" \"btnSaleCom\"",
+            "match": {
+              "location": "features\\stepDefinitions\\clickElement.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2329000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
